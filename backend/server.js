@@ -8,7 +8,7 @@ const multer = require('multer');
 const upload = multer({ dest: 'uploads/' });
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: '*', credentials: true }));
 app.use(express.json());
 
 const adapter = new JSONFile('db.json');
