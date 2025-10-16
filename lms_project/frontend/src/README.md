@@ -1,0 +1,1 @@
+Frontend: React app. Run `npm install` then `npm start`.
