@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const API = 'http://localhost:4000/api';
+const API = 'https://lms-kgbr.onrender.com';
 
 function Header({user, onLogout}){
   return (
